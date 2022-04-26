@@ -20,108 +20,13 @@ I implement a hash function, insert and search functionality for two versions of
 
 <br>
 
-<table style="align:center;width:900px">
-  <tr tr style="background-color:#7F96FF;color:#ffffff;height:50px;font-size:20px;">
-    <th style="text-align:right;width:40px">Version</th>
-    <th style="text-align:right;width:105px">Test</th>
-    <th style="text-align:center;width:145px">Matches</th>
-    <th style="text-align:center;width:75px">Collisions</th>
-    <th style="text-align:center;width:150px">Plagiarism Level</th>
-    <th style="text-align:left;width:105px">Lengths</th>
-  </tr>
-  <tr tr style="height:30px;text-align:center;font-size:14px;">
-    <td style="text-align:right">V.1</td>
-    <td style="text-align:right">Test 1</td>
-    <td style="text-align:center">8</td>
-    <td style="text-align:center">0.00%</td> 
-    <td style="text-align:center">10.67%</td> 
-    <td style="text-align:left;font-size:15px;">
-        <ul>
-            <br>
-            <li>x-length: 80</li>
-            <li>y-length: 33</li>
-            <li>k-length: 4</li> 
-        </ul>
-    </td>
-  </tr>
-  <tr tr style="height:30px;text-align:center;font-size:14px;">
-    <td style="text-align:right">V.2</td>
-    <td style="text-align:right">Test 1</td>
-    <td style="text-align:center">8</td>
-    <td style="text-align:center">0.00%</td> 
-    <td style="text-align:center">10.67%</td> 
-    <td style="text-align:left;font-size:15px;">
-        <ul>
-            <br>
-            <li>x-length: 80</li>
-            <li>y-length: 33</li>
-            <li>k-length: 4</li> 
-        </ul>
-    </td>
-  </tr>
-  <tr tr style="height:30px;text-align:center;font-size:14px;">
-    <td style="text-align:right">V.1</td>
-    <td style="text-align:right">Test 2</td>
-    <td style="text-align:center">1</td>
-    <td style="text-align:center">0.00%</td> 
-    <td style="text-align:center">0.11%</td> 
-    <td style="text-align:left;font-size:15px;">
-        <ul>
-            <br>
-            <li>x-length: 1142 </li>
-            <li>y-length: 11</li>
-            <li>k-length: 11</li> 
-        </ul>
-    </td>
-  </tr>
-  <tr tr style="height:30px;text-align:center;font-size:14px;">
-    <td style="text-align:right">V.2</td>
-    <td style="text-align:right">Test 2</td>
-    <td style="text-align:center">1</td>
-    <td style="text-align:center">0.00%</td> 
-    <td style="text-align:center">0.11%</td> 
-    <td style="text-align:left;font-size:15px;">
-        <ul>
-            <br>
-            <li>x-length: 1142</li>
-            <li>y-length: 11</li>
-            <li>k-length: 11</li> 
-        </ul>
-    </td>
-  </tr>
-  <tr tr style="height:30px;text-align:center;font-size:14px;">
-    <td style="text-align:right">V.1</td>
-    <td style="text-align:right">Test 3</td>
-    <td style="text-align:center">189</td>
-    <td style="text-align:center">0.22%</td> 
-    <td style="text-align:center">20.54%</td> 
-    <td style="text-align:left;font-size:15px;">
-        <ul>
-            <br>
-            <li>x-length: 1142</li>
-            <li>y-length: 1230</li>
-            <li>k-length: 13</li> 
-        </ul>
-    </td>
-  </tr>
-  <tr tr style="height:30px;text-align:center;font-size:14px;">
-    <td style="text-align:right">V.2</td>
-    <td style="text-align:right">Test 3</td>
-    <td style="text-align:center">189</td>
-    <td style="text-align:center">0.00%</td> 
-    <td style="text-align:center">20.52%</td> 
-    <td style="text-align:left;font-size:15px;">
-        <ul>
-            <br>
-            <li>x-length: 1142</li>
-            <li>y-length: 1230</li>
-            <li>k-length: 13</li> 
-        </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Phil-Barv/Plagiarism-Detector/blob/main/table1.png" alt="Summary Table"/>
+</p>
+
 <br>
-<p style="font-size:15px;text-align:center"><i>Table 1. A table showing the summary of V1 and V2 Tests.</i></p><br>
+
+<p align="center"><i>Table 1. A table showing the summary of V1 and V2 Tests.</i></p><br>
 
 <br>
 
@@ -138,7 +43,7 @@ Fig.1 shows the growth of the multiplicative and rolling hashing methods to be l
 <br>
 
 <p align="center">
-  <img src="https://github.com/Phil-Barv/Regression-Models-for-Applicant-Best-Fit/blob/main/plots/Susie.png" alt="Multiplicative and rolling hashing methods to be logarithmic in O(p log p) as the length of x is increased."/>
+  <img src="https://github.com/Phil-Barv/Plagiarism-Detector/blob/main/plot1.png" alt="Multiplicative and rolling hashing methods to be logarithmic in O(p log p) as the length of x is increased."/>
 </p>
 
 <br>
@@ -148,7 +53,7 @@ s
 <br>
 
 <p align="center">
-  <img src="https://github.com/Phil-Barv/Regression-Models-for-Applicant-Best-Fit/blob/main/plots/Susie.png" alt="Multiplicative and rolling hashing methods to be logarithmic in O(p log p) with some variations as the length of k is increased"/>
+  <img src="https://github.com/Phil-Barv/Plagiarism-Detector/blob/main/plot2.png" alt="Multiplicative and rolling hashing methods to be logarithmic in O(p log p) with some variations as the length of k is increased"/>
 </p>
 
 <br>
